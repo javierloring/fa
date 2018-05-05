@@ -18,7 +18,7 @@ if (!empty($_POST)) {
             'id' => $fila['id'],
             'nombre' => $fila['usuario'],
         ];
-        header('Location: index.php');
+        header('Location: ../index.php');
     } catch (Exception $e) {
         mostrarErrores($error);
     }
